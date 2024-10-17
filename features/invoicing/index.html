@@ -8,19 +8,25 @@
       
       
       
+        <link rel="canonical" href="https://viken-blockchain-solutions.github.io/chronos_ledger_documentation/features/invoicing/">
       
       
+        <link rel="prev" href="../time_tracking/">
       
-      <link rel="icon" href="/chronos_ledger_documentation/assets/images/favicon.png">
+      
+        <link rel="next" href="../reporting_analytics/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.41">
     
     
       
-        <title>Chronos Ledger Documentation</title>
+        <title>Automated Invoicing - Chronos Ledger Documentation</title>
       
     
     
-      <link rel="stylesheet" href="/chronos_ledger_documentation/assets/stylesheets/main.0253249f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
       
       
 
@@ -39,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL("/chronos_ledger_documentation/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -57,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#automated-invoicing-payments" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -69,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/chronos_ledger_documentation/." title="Chronos Ledger Documentation" class="md-header__button md-logo" aria-label="Chronos Ledger Documentation" data-md-component="logo">
+    <a href="../.." title="Chronos Ledger Documentation" class="md-header__button md-logo" aria-label="Chronos Ledger Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -89,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Automated Invoicing
             
           </span>
         </div>
@@ -164,7 +175,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/chronos_ledger_documentation/." title="Chronos Ledger Documentation" class="md-nav__button md-logo" aria-label="Chronos Ledger Documentation" data-md-component="logo">
+    <a href="../.." title="Chronos Ledger Documentation" class="md-nav__button md-logo" aria-label="Chronos Ledger Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -182,7 +193,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -202,7 +213,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/introduction/" class="md-nav__link">
+      <a href="../../introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -219,17 +230,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -243,7 +256,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Product Features
@@ -257,7 +270,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/features/time_tracking/" class="md-nav__link">
+      <a href="../time_tracking/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -275,10 +288,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/features/invoicing/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Automated Invoicing
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -287,6 +320,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#key-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Features:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How it Works:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Case:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -299,7 +379,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/features/crypto_payments/" class="md-nav__link">
+      <a href="../crypto_payments/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -320,7 +400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/features/reporting_analytics/" class="md-nav__link">
+      <a href="../reporting_analytics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -341,7 +421,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/features/ai_project_estimation/" class="md-nav__link">
+      <a href="../ai_project_estimation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -362,7 +442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/features/document_uploads/" class="md-nav__link">
+      <a href="../document_uploads/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -383,7 +463,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/features/nft_program/" class="md-nav__link">
+      <a href="../nft_program/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -446,7 +526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/pricing/overview.md" class="md-nav__link">
+      <a href="../../pricing/overview.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -467,7 +547,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/pricing/feature_comparison.md" class="md-nav__link">
+      <a href="../../pricing/feature_comparison.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -530,7 +610,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/architecture/system_overview.md" class="md-nav__link">
+      <a href="../../architecture/system_overview.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -551,7 +631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/architecture/security_compliance.md" class="md-nav__link">
+      <a href="../../architecture/security_compliance.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -614,7 +694,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/roles/ceo.md" class="md-nav__link">
+      <a href="../../roles/ceo.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -635,7 +715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/roles/cfo.md" class="md-nav__link">
+      <a href="../../roles/cfo.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -656,7 +736,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/roles/employee.md" class="md-nav__link">
+      <a href="../../roles/employee.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -677,7 +757,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/roles/custom_roles.md" class="md-nav__link">
+      <a href="../../roles/custom_roles.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -705,7 +785,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/features/time_tracking/" class="md-nav__link">
+      <a href="../time_tracking/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -722,10 +802,30 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/features/invoicing/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Automated Invoicing
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -734,6 +834,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#key-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Features:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How it Works:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Case:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -745,7 +892,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/expense_payroll_management.md" class="md-nav__link">
+      <a href="../../expense_payroll_management.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -765,7 +912,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/features/reporting_analytics/" class="md-nav__link">
+      <a href="../reporting_analytics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -785,7 +932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/deployment_scalability.md" class="md-nav__link">
+      <a href="../../deployment_scalability.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -805,7 +952,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/architecture/security_compliance.md" class="md-nav__link">
+      <a href="../../architecture/security_compliance.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -825,7 +972,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/features/nft_program/" class="md-nav__link">
+      <a href="../nft_program/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -880,7 +1027,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/pricing/overview.md" class="md-nav__link">
+      <a href="../../pricing/overview.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -901,7 +1048,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/pricing/early_adopter_pricing.md" class="md-nav__link">
+      <a href="../../pricing/early_adopter_pricing.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -929,7 +1076,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/faqs.md" class="md-nav__link">
+      <a href="../../faqs.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -949,7 +1096,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/chronos_ledger_documentation/roadmap.md" class="md-nav__link">
+      <a href="../../roadmap.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -979,6 +1126,43 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#key-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Features:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How it Works:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Case:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -990,8 +1174,69 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+<h1 id="automated-invoicing-payments">Automated Invoicing &amp; Payments</h1>
+<p>Chronos Ledger provides a seamless <strong>automated invoicing</strong> and <strong>payment processing</strong> system, allowing users to generate and send invoices based on tracked time or project milestones. Whether you're invoicing in <strong>fiat</strong> or <strong>cryptocurrency</strong>, Chronos Ledger ensures that your invoicing process is automated, accurate, and secure.</p>
+<h2 id="key-features">Key Features:</h2>
+<ol>
+<li><strong>Automatic Invoice Generation</strong>:</li>
+<li>Invoices are automatically generated based on the hours logged in the <strong>Time Tracking</strong> system or based on predefined <strong>project milestones</strong>.</li>
+<li>Users can define invoice templates, set due dates, and customize line items for each client.</li>
+<li>
+<p>The system supports invoicing in both <strong>fiat</strong> and <strong>cryptocurrency</strong>, with full tracking of payment status.</p>
+</li>
+<li>
+<p><strong>Payment Integration</strong>:</p>
+</li>
+<li>Chronos Ledger integrates with the <strong>Request Network</strong> to securely process cryptocurrency payments.</li>
+<li>Invoices can be paid in <strong>Bitcoin</strong>, <strong>Ethereum</strong>, or other supported cryptocurrencies, offering flexibility to clients and ensuring fast, secure payments.</li>
+<li>
+<p>The system also supports <strong>traditional fiat payments</strong>, allowing for hybrid invoicing.</p>
+</li>
+<li>
+<p><strong>Invoice Customization</strong>:</p>
+</li>
+<li>Users can customize their invoices with <strong>branding elements</strong>, including company logos, custom colors, and additional details such as tax information.</li>
+<li>
+<p>Invoices can be configured to include or exclude specific time logs, milestones, or expenses.</p>
+</li>
+<li>
+<p><strong>Real-Time Payment Tracking</strong>:</p>
+</li>
+<li>Payment statuses are tracked in real-time, whether the payment is made in crypto or fiat.</li>
+<li>
+<p>Notifications are sent when payments are received, and users can easily track <strong>unpaid</strong>, <strong>partially paid</strong>, or <strong>completed invoices</strong>.</p>
+</li>
+<li>
+<p><strong>Recurring Invoices</strong>:</p>
+</li>
+<li>Set up <strong>recurring invoices</strong> for long-term projects or retainer clients. These invoices are automatically generated and sent on a predefined schedule (e.g., monthly or quarterly).</li>
+<li>Manage recurring billing cycles with minimal effort, ensuring steady cash flow for ongoing projects.</li>
+</ol>
+<h2 id="how-it-works">How it Works:</h2>
+<ul>
+<li><strong>Automated Workflow</strong>: After time is logged or a milestone is reached, Chronos Ledger will generate an invoice automatically. The invoice can be reviewed and sent directly to the client via email or a secure link.</li>
+<li><strong>Payment Integration</strong>: Invoices can include both <strong>crypto</strong> and <strong>fiat</strong> payment options. Once a payment is made, it is reflected in the invoice tracking system, and the user receives a notification.</li>
+</ul>
+<h2 id="use-case">Use Case:</h2>
+<p>A consultant working on a large project can set up automatic invoices that are triggered upon reaching specific project milestones. For example, once 50% of the project is complete, an invoice is generated and sent to the client. Payments can be made in either <strong>crypto</strong> or <strong>fiat</strong>, and the consultant is notified once payment is received.</p>
+<hr />
+<p><em>Include a visual template for an </em><em>Invoice</em><em> here.</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1025,10 +1270,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/chronos_ledger_documentation/", "features": [], "search": "/chronos_ledger_documentation/assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/chronos_ledger_documentation/assets/javascripts/bundle.83f73b43.min.js"></script>
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
     
   </body>

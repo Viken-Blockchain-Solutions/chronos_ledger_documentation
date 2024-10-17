@@ -1,0 +1,1710 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://viken-blockchain-solutions.github.io/chronos_ledger_documentation/content/">
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.41">
+    
+    
+      
+        <title>Content - Chronos Ledger Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.0253249f.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#table-of-contents" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Chronos Ledger Documentation" class="md-header__button md-logo" aria-label="Chronos Ledger Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Chronos Ledger Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Content
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Chronos Ledger Documentation" class="md-nav__button md-logo" aria-label="Chronos Ledger Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Chronos Ledger Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction to Chronos Ledger
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Product Features
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Product Features
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../features/time_tracking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Automated Time Tracking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../features/invoicing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Automated Invoicing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../features/crypto_payments/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Crypto Payments Integration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../features/reporting_analytics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Advanced Reporting & Analytics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../features/ai_project_estimation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AI-Assisted Project Estimation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../features/document_uploads/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Document Uploads
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../features/nft_program/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Early Adopter NFT Program
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Freemium vs. Premium Versions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Freemium vs. Premium Versions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pricing/overview.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pricing/feature_comparison.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Feature Comparison
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Technical Architecture
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Technical Architecture
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../architecture/system_overview.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    System Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../architecture/security_compliance.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security & Compliance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    User Roles and Permissions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            User Roles and Permissions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roles/ceo.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CEO/Owner
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roles/cfo.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CFO/Finance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roles/employee.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Employee
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roles/custom_roles.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Custom Roles (Coming Soon)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../features/time_tracking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Automated Time Tracking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../features/invoicing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Automated Invoicing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../expense_payroll_management.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Expense and Payroll Management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../features/reporting_analytics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Advanced Reporting & Analytics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../deployment_scalability.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Deployment and Scalability
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../architecture/security_compliance.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security and Compliance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../features/nft_program/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Early Adopter NFT Program
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pricing Structure
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            Pricing Structure
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pricing/overview.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pricing/early_adopter_pricing.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Early Adopter Pricing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faqs.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQs and Troubleshooting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roadmap.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roadmap and Future Features
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Table of Contents:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction-to-chronos-ledger" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Introduction to Chronos Ledger
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-product-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Product Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Product Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#automated-time-tracking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automated Time Tracking:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#automated-invoicing-and-payment-processing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automated Invoicing and Payment Processing:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crypto-based-payments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crypto-Based Payments:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-reporting-and-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Reporting and Analytics:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai-assisted-project-estimation" class="md-nav__link">
+    <span class="md-ellipsis">
+      AI-Assisted Project Estimation:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#document-uploads-for-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Document Uploads for Projects:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-freemium-vs-premium-versions" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Freemium vs. Premium Versions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Freemium vs. Premium Versions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview-of-free-and-paid-plans" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview of Free and Paid Plans:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detailed-feature-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detailed Feature Comparison:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-technical-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Technical Architecture
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Technical Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#system-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      System Overview:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-and-compliance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Security and Compliance:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-user-roles-and-permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. User Roles and Permissions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. User Roles and Permissions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ceoowner-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      CEO/Owner Access:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfofinance-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      CFO/Finance Access:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#employee-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      Employee Access:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom Roles:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-automated-time-tracking" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Automated Time Tracking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-automated-invoicing-and-payments" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Automated Invoicing and Payments
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-expense-and-payroll-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Expense and Payroll Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-reporting-and-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Reporting and Analytics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-early-adopter-nft-program" class="md-nav__link">
+    <span class="md-ellipsis">
+      12. Early Adopter NFT Program
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12. Early Adopter NFT Program">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#symbolism-behind-72-nfts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Symbolism Behind 72 NFTs:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nft-tiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      NFT Tiers:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additional-benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Additional Benefits:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-pricing-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      13. Pricing Structure
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13. Pricing Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#freemium-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Freemium Model:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#premium-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Premium Model:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#early-adopter-subscription" class="md-nav__link">
+    <span class="md-ellipsis">
+      Early Adopter Subscription:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-pricing-structure-continued" class="md-nav__link">
+    <span class="md-ellipsis">
+      13. Pricing Structure (Continued)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13. Pricing Structure (Continued)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#early-adopter-subscription_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Early Adopter Subscription:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Early Adopter Subscription:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tier-1-monthly-subscription-42-nfts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tier 1: Monthly Subscription (42 NFTs)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tier-2-6-month-subscription-18-nfts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tier 2: 6-Month Subscription (18 NFTs)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tier-3-annual-subscription-12-nfts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tier 3: Annual Subscription (12 NFTs)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-faqs-and-troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      14. FAQs and Troubleshooting
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-roadmap-and-future-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      15. Roadmap and Future Features
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h2 id="table-of-contents"><strong>Table of Contents</strong>:</h2>
+<ol>
+<li><strong>Introduction to Chronos Ledger</strong></li>
+<li><strong>Product Features</strong></li>
+<li>Automated Time Tracking</li>
+<li>Automated Invoicing and Payment Processing</li>
+<li>Crypto-Based Payments Integration (via Request Network)</li>
+<li>Advanced Reporting and Analytics</li>
+<li>AI-Assisted Project Estimation</li>
+<li>Document Uploads for Projects</li>
+<li>Early Adopter NFT Program</li>
+<li><strong>Freemium vs. Premium Versions</strong></li>
+<li>Overview of Free and Paid Plans</li>
+<li>Detailed Feature Comparison</li>
+<li><strong>Technical Architecture</strong></li>
+<li>System Overview</li>
+<li>Security and Compliance</li>
+<li><strong>User Roles and Permissions</strong></li>
+<li>CEO/Owner Access</li>
+<li>CFO/Finance Access</li>
+<li>Employee Access</li>
+<li>Custom Roles (Coming Soon)</li>
+<li><strong>Automated Time Tracking</strong></li>
+<li><strong>Automated Invoicing and Payments</strong></li>
+<li><strong>Expense and Payroll Management</strong></li>
+<li><strong>Reporting and Analytics</strong></li>
+<li><strong>Deployment and Scalability</strong></li>
+<li><strong>Security and Compliance</strong></li>
+<li><strong>Early Adopter NFT Program</strong> (Updated Section)</li>
+<li><strong>Pricing Structure</strong> (Updated Section)</li>
+<li><strong>FAQs and Troubleshooting</strong></li>
+<li><strong>Roadmap and Future Features</strong></li>
+</ol>
+<hr />
+<h1 id="1-introduction-to-chronos-ledger"><strong>1. Introduction to Chronos Ledger</strong></h1>
+<p>Chronos Ledger is an all-in-one SaaS platform designed for <strong>time tracking</strong>, <strong>automated invoicing</strong>, and <strong>crypto payments</strong>. This solution is tailored for <strong>freelancers</strong>, <strong>startups</strong>, and <strong>enterprises</strong>, providing tools to automate time entries and invoice generation while integrating with crypto payment systems like <strong>Request Network</strong>.</p>
+<hr />
+<h1 id="2-product-features"><strong>2. Product Features</strong></h1>
+<h3 id="automated-time-tracking">Automated Time Tracking:</h3>
+<p>Chronos Ledger automates time tracking across multiple projects, enabling users to log hours either automatically through predefined schedules or manually as needed. Users can adjust logged hours manually for accuracy.</p>
+<p><em>Include a screenshot or diagram of the </em><em>time tracking dashboard</em><em> here.</em><br />
+<strong>Description</strong>: Dashboard that visualizes weekly time logs, total hours per project, and the option to manually edit time entries.</p>
+<h3 id="automated-invoicing-and-payment-processing">Automated Invoicing and Payment Processing:</h3>
+<p>Invoices are generated based on logged time or project milestones, and sent automatically in either <strong>fiat</strong> or <strong>crypto</strong> using the <strong>Request Network</strong>. Users can customize invoices and track payment statuses.</p>
+<p><em>Include a visual template for an invoice here.</em><br />
+<strong>Description</strong>: An invoice template displaying project details, total hours worked, payment methods (crypto/fiat), and due dates.</p>
+<h3 id="crypto-based-payments">Crypto-Based Payments:</h3>
+<p>Chronos Ledger integrates with <strong>Request Network</strong> to support crypto payments, allowing businesses to send and receive payments securely and track transaction statuses via blockchain.</p>
+<p><em>Add a diagram illustrating the </em><em>crypto payment flow</em><em> here.</em><br />
+<strong>Description</strong>: Diagram showing how Chronos Ledger integrates with Request Network to send/receive crypto payments, along with real-time payment tracking.</p>
+<h3 id="advanced-reporting-and-analytics">Advanced Reporting and Analytics:</h3>
+<p>Generate detailed reports on time logs, project costs, and performance. Reports can be customized based on client, project, or time period.</p>
+<p><em>Placeholder for a </em><em>reporting dashboard screenshot</em><em> here.</em><br />
+<strong>Description</strong>: Dashboard showing customizable filters for reports, graphs, and tables detailing project hours, costs, and invoiced amounts.</p>
+<h3 id="ai-assisted-project-estimation">AI-Assisted Project Estimation:</h3>
+<p>AI-powered project estimation tools help generate accurate timelines and cost predictions based on project scope and historical data.</p>
+<h3 id="document-uploads-for-projects">Document Uploads for Projects:</h3>
+<p>Users can upload related documents (e.g., contracts, deliverables) for each project, allowing for easy access to important files.</p>
+<p><em>Add an icon or diagram illustrating </em><em>document uploads per project</em><em> here.</em><br />
+<strong>Description</strong>: Icon showing the ability to upload and manage files within each project dashboard.</p>
+<hr />
+<h1 id="3-freemium-vs-premium-versions"><strong>3. Freemium vs. Premium Versions</strong></h1>
+<h3 id="overview-of-free-and-paid-plans">Overview of Free and Paid Plans:</h3>
+<p>Chronos Ledger offers two tiers:
+- <strong>Freemium</strong>: Suitable for freelancers managing basic time tracking and invoicing for up to <strong>2 projects</strong>.
+- <strong>Premium</strong>: Designed for startups and enterprises, providing advanced tools like <strong>automated invoicing</strong>, <strong>crypto payments</strong>, and <strong>unlimited projects</strong>.</p>
+<h3 id="detailed-feature-comparison">Detailed Feature Comparison:</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Feature</strong></th>
+<th><strong>Freemium</strong></th>
+<th><strong>Premium</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Time Tracking</td>
+<td>1 active project</td>
+<td>Unlimited projects and team members</td>
+</tr>
+<tr>
+<td>Invoicing</td>
+<td>1 automatic invoice/month</td>
+<td>Unlimited, automated based on logged hours</td>
+</tr>
+<tr>
+<td>Crypto Payments</td>
+<td>Limited</td>
+<td>Full integration with Request Network</td>
+</tr>
+<tr>
+<td>Reporting</td>
+<td>Basic weekly reports</td>
+<td>Advanced reports with filters and customization</td>
+</tr>
+<tr>
+<td>Document Uploads</td>
+<td>1 document per project</td>
+<td>Unlimited uploads</td>
+</tr>
+<tr>
+<td>Client Management</td>
+<td>Up to 2 clients</td>
+<td>Unlimited clients</td>
+</tr>
+<tr>
+<td>Support</td>
+<td>Standard</td>
+<td>Premium support with priority access</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="4-technical-architecture"><strong>4. Technical Architecture</strong></h1>
+<h3 id="system-overview">System Overview:</h3>
+<p>Chronos Ledger is built using <strong>Next.js</strong> (frontend) and <strong>Node.js</strong> (backend), with <strong>PostgreSQL</strong> for data storage and <strong>Request Network</strong> for handling crypto payments.</p>
+<p><em>Include a </em><em>system architecture diagram</em><em> here.</em><br />
+<strong>Description</strong>: Visual showing the interaction between the frontend (Next.js), backend (Node.js), and third-party services like <strong>Request Network</strong> for crypto payments and <strong>PostgreSQL</strong> for data storage.</p>
+<h3 id="security-and-compliance">Security and Compliance:</h3>
+<p>Data is protected through <strong>SSL encryption</strong>, <strong>role-based access control</strong> (RBAC), and <strong>AML/KYC compliance</strong> for crypto payments, ensuring secure and private transactions.</p>
+<hr />
+<h1 id="5-user-roles-and-permissions"><strong>5. User Roles and Permissions</strong></h1>
+<h3 id="ceoowner-access">CEO/Owner Access:</h3>
+<p>Full system access to manage financials, projects, and reporting tools.</p>
+<h3 id="cfofinance-access">CFO/Finance Access:</h3>
+<p>Access to <strong>financial operations</strong> such as payroll, expenses, and invoices.</p>
+<h3 id="employee-access">Employee Access:</h3>
+<p>Limited access to time tracking and assigned projects.</p>
+<h3 id="custom-roles">Custom Roles:</h3>
+<p><strong>Coming Soon</strong>: Ability to create custom roles with specific access levels.</p>
+<hr />
+<h1 id="6-automated-time-tracking"><strong>6. Automated Time Tracking</strong></h1>
+<p>Chronos Ledger allows users to configure <strong>automated time tracking</strong> through predefined work hours for projects. A cron job handles the automation of time logging, ensuring that hours are captured based on the user’s input.</p>
+<p><em>Include a flowchart of the </em><em>cron job logic for automated time tracking</em><em> here.</em><br />
+<strong>Description</strong>: Flowchart showing how the cron job runs daily to log hours for ongoing projects automatically.</p>
+<hr />
+<h1 id="7-automated-invoicing-and-payments"><strong>7. Automated Invoicing and Payments</strong></h1>
+<p>Invoices are automatically generated based on the time logged per project. Users can customize invoices and choose to send them in either <strong>crypto</strong> or <strong>fiat</strong>, with the ability to track invoice statuses and notifications when payments are made.</p>
+<hr />
+<h1 id="8-expense-and-payroll-management"><strong>8. Expense and Payroll Management</strong></h1>
+<p>Manage employee payroll with options for <strong>crypto payments</strong>. Employees can submit expenses for approval, and payroll is processed based on the hours logged, with crypto-to-fiat conversion available for payroll if required.</p>
+<hr />
+<h1 id="9-reporting-and-analytics"><strong>9. Reporting and Analytics</strong></h1>
+<p>Chronos Ledger provides detailed reports based on time tracking, project performance, and invoicing data. Reports are customizable, allowing users to generate insights based on specific client needs, time frames, or project metrics.</p>
+<hr />
+<h1 id="12-early-adopter-nft-program"><strong>12. Early Adopter NFT Program</strong></h1>
+<h3 id="overview">Overview:</h3>
+<p>Chronos Ledger is launching an exclusive <strong>Early Adopter NFT program</strong> designed to reward our first users with symbolic NFTs that provide long-term benefits. These NFTs offer progressive discounts, access to early features, and tradeability on secondary markets.</p>
+<h3 id="symbolism-behind-72-nfts">Symbolism Behind 72 NFTs:</h3>
+<p>We’ve chosen to issue a total of <strong>72 NFTs</strong>, a number tied to <strong>time cycles and mysticism</strong>. In numerology and various traditions, 72 represents <strong>balance</strong>, <strong>power</strong>, and <strong>creation</strong>, aligning with Chronos Ledger’s mission to provide precision and efficiency in time management.</p>
+<h3 id="nft-tiers">NFT Tiers:</h3>
+<p>The NFTs are divided into three tiers, based on the user’s subscription payment method:
+1. <strong>Tier 1: Monthly Subscription (42 NFTs)</strong>:
+   - <strong>Timelocked for 1 year</strong>: NFT unlocks after 12 consecutive monthly payments.
+   - Discounts: <strong>10%</strong> for the first year, <strong>50%</strong> by the third year, with a <strong>30% lifetime discount</strong> after three years.
+2. <strong>Tier 2: 6-Month Subscription (18 NFTs)</strong>:
+   - <strong>Timelocked for 6 months</strong>: Unlocks after two consecutive 6-month payments.
+   - Discounts: <strong>15%</strong> for the first 6 months, <strong>50%</strong> after two years, with a <strong>40% lifetime discount</strong>.
+3. <strong>Tier 3: Annual Subscription (12 NFTs)</strong>:
+   - <strong>No timelock</strong>: NFT is available immediately.
+   - Discounts: <strong>25%</strong> for the first year, <strong>75%</strong> by the third year, with a <strong>50% lifetime discount</strong> thereafter.</p>
+<h3 id="additional-benefits">Additional Benefits:</h3>
+<ul>
+<li><strong>Discounts on AI Credits</strong>: NFT holders receive up to <strong>50% off AI credits</strong>, depending on their tier.</li>
+<li><strong>Early Access</strong>: Participate as <strong>early testers</strong> for new features with <strong>free beta access</strong>.</li>
+<li><strong>Exclusive Events</strong>: NFT holders get invitations to <strong>community events</strong> and networking opportunities with the Chronos Ledger team.</li>
+<li><strong>Tradeable NFTs</strong>: Once unlocked, NFTs can be <strong>traded</strong> on secondary markets.</li>
+</ul>
+<hr />
+<h1 id="13-pricing-structure"><strong>13. Pricing Structure</strong></h1>
+<h3 id="freemium-model">Freemium Model:</h3>
+<ul>
+<li>Free for <strong>basic users</strong>, allowing up to <strong>2 active projects</strong>.</li>
+<li>Limited to <strong>manual invoicing</strong> and <strong>basic reports</strong>.</li>
+</ul>
+<h3 id="premium-model">Premium Model:</h3>
+<ul>
+<li><strong>$49/month</strong> for <strong>unlimited projects</strong>, clients, and automated invoicing.</li>
+<li>Includes <strong>crypto payments</strong> and <strong>advanced reporting</strong>.</li>
+</ul>
+<h3 id="early-adopter-subscription">Early Adopter Subscription:</h3>
+<p>This subscription offers progressive benefits to reward long-term loyalty, available for the **first 72</p>
+<h1 id="13-pricing-structure-continued"><strong>13. Pricing Structure</strong> (Continued)</h1>
+<h3 id="early-adopter-subscription_1"><strong>Early Adopter Subscription</strong>:</h3>
+<p>The Early Adopter subscription offers progressive discounts to reward loyalty and commitment to Chronos Ledger. These are available for the first <strong>72 users</strong> who choose either <strong>monthly</strong>, <strong>6-month</strong>, or <strong>annual</strong> payments, divided into three symbolic NFT tiers based on their subscription plan.</p>
+<h4 id="tier-1-monthly-subscription-42-nfts"><strong>Tier 1: Monthly Subscription (42 NFTs)</strong></h4>
+<ul>
+<li><strong>Base Price</strong>: <strong>$35/month</strong>.</li>
+<li><strong>First year</strong>: 10% discount ($31.50/month).</li>
+<li><strong>Second year</strong>: 25% discount ($26.25/month).</li>
+<li><strong>Third year</strong>: 50% discount ($17.50/month).</li>
+<li><strong>Lifetime discount after third year</strong>: 30% ($24.50/month).</li>
+<li><strong>NFT Timelock</strong>: 12 consecutive monthly payments.</li>
+</ul>
+<h4 id="tier-2-6-month-subscription-18-nfts"><strong>Tier 2: 6-Month Subscription (18 NFTs)</strong></h4>
+<ul>
+<li><strong>Base Price</strong>: <strong>$180 every 6 months</strong>.</li>
+<li><strong>First 6 months</strong>: 15% discount ($153 for 6 months).</li>
+<li><strong>Second 6 months</strong>: 30% discount ($126 for 6 months).</li>
+<li><strong>Second year</strong>: 50% discount ($90 for 6 months).</li>
+<li><strong>Lifetime discount after second year</strong>: 40% ($108 for 6 months).</li>
+<li><strong>NFT Timelock</strong>: Unlocks after two consecutive semi-annual payments.</li>
+</ul>
+<h4 id="tier-3-annual-subscription-12-nfts"><strong>Tier 3: Annual Subscription (12 NFTs)</strong></h4>
+<ul>
+<li><strong>Base Price</strong>: <strong>$300/year</strong>.</li>
+<li><strong>First year</strong>: 25% discount ($225/year).</li>
+<li><strong>Second year</strong>: 50% discount ($150/year).</li>
+<li><strong>Third year</strong>: 75% discount ($75/year).</li>
+<li><strong>Lifetime discount after third year</strong>: 50% ($150/year).</li>
+<li><strong>NFT Timelock</strong>: No timelock, NFT available immediately.</li>
+</ul>
+<hr />
+<h1 id="14-faqs-and-troubleshooting"><strong>14. FAQs and Troubleshooting</strong></h1>
+<ul>
+<li><strong>How do I unlock my Early Adopter NFT?</strong></li>
+<li>
+<p>For <strong>monthly subscribers</strong>, your NFT unlocks after 12 consecutive months of payments. For <strong>6-month subscribers</strong>, your NFT unlocks after two consecutive semi-annual payments. For <strong>annual subscribers</strong>, your NFT is available immediately after the first payment.</p>
+</li>
+<li>
+<p><strong>Can I trade my NFT?</strong></p>
+</li>
+<li>
+<p>Yes! Once your NFT is unlocked, you can trade or sell it on secondary markets, giving it future value based on the embedded benefits.</p>
+</li>
+<li>
+<p><strong>What happens if I stop my subscription before my NFT unlocks?</strong></p>
+</li>
+<li>If your subscription is canceled before the timelock is over, your NFT will remain locked, and you will not be able to trade or sell it.</li>
+</ul>
+<hr />
+<h1 id="15-roadmap-and-future-features"><strong>15. Roadmap and Future Features</strong></h1>
+<ul>
+<li><strong>Custom Role Management</strong>: Offering users more granular control over access permissions within their organizations.</li>
+<li><strong>AI-Assisted Project Estimation</strong>: Leveraging machine learning to create smarter, more accurate project timelines and budget forecasts.</li>
+<li><strong>Enterprise Integrations</strong>: Partnerships and integrations with ERP, CRM, and accounting tools for larger businesses.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
