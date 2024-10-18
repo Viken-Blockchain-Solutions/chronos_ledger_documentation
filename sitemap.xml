@@ -2,46 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://viken-blockchain-solutions.github.io/chronos_ledger_documentation/</loc>
-         <lastmod>2024-10-17</lastmod>
-    </url>
-    <url>
-         <loc>https://viken-blockchain-solutions.github.io/chronos_ledger_documentation/content/</loc>
-         <lastmod>2024-10-17</lastmod>
+         <lastmod>2024-10-18</lastmod>
     </url>
     <url>
          <loc>https://viken-blockchain-solutions.github.io/chronos_ledger_documentation/introduction/</loc>
-         <lastmod>2024-10-17</lastmod>
+         <lastmod>2024-10-18</lastmod>
     </url>
     <url>
-         <loc>https://viken-blockchain-solutions.github.io/chronos_ledger_documentation/welcome/</loc>
-         <lastmod>2024-10-17</lastmod>
+         <loc>https://viken-blockchain-solutions.github.io/chronos_ledger_documentation/architecture/security_compliance/</loc>
+         <lastmod>2024-10-18</lastmod>
+    </url>
+    <url>
+         <loc>https://viken-blockchain-solutions.github.io/chronos_ledger_documentation/architecture/system_overview/</loc>
+         <lastmod>2024-10-18</lastmod>
     </url>
     <url>
          <loc>https://viken-blockchain-solutions.github.io/chronos_ledger_documentation/features/ai_project_estimation/</loc>
-         <lastmod>2024-10-17</lastmod>
+         <lastmod>2024-10-18</lastmod>
     </url>
     <url>
          <loc>https://viken-blockchain-solutions.github.io/chronos_ledger_documentation/features/crypto_payments/</loc>
-         <lastmod>2024-10-17</lastmod>
+         <lastmod>2024-10-18</lastmod>
     </url>
     <url>
          <loc>https://viken-blockchain-solutions.github.io/chronos_ledger_documentation/features/document_uploads/</loc>
-         <lastmod>2024-10-17</lastmod>
+         <lastmod>2024-10-18</lastmod>
     </url>
     <url>
          <loc>https://viken-blockchain-solutions.github.io/chronos_ledger_documentation/features/invoicing/</loc>
-         <lastmod>2024-10-17</lastmod>
+         <lastmod>2024-10-18</lastmod>
     </url>
     <url>
          <loc>https://viken-blockchain-solutions.github.io/chronos_ledger_documentation/features/nft_program/</loc>
-         <lastmod>2024-10-17</lastmod>
+         <lastmod>2024-10-18</lastmod>
     </url>
     <url>
          <loc>https://viken-blockchain-solutions.github.io/chronos_ledger_documentation/features/reporting_analytics/</loc>
-         <lastmod>2024-10-17</lastmod>
+         <lastmod>2024-10-18</lastmod>
     </url>
     <url>
          <loc>https://viken-blockchain-solutions.github.io/chronos_ledger_documentation/features/time_tracking/</loc>
-         <lastmod>2024-10-17</lastmod>
+         <lastmod>2024-10-18</lastmod>
+    </url>
+    <url>
+         <loc>https://viken-blockchain-solutions.github.io/chronos_ledger_documentation/pricing/feature_comparison/</loc>
+         <lastmod>2024-10-18</lastmod>
+    </url>
+    <url>
+         <loc>https://viken-blockchain-solutions.github.io/chronos_ledger_documentation/pricing/overview/</loc>
+         <lastmod>2024-10-18</lastmod>
     </url>
 </urlset>
